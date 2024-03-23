@@ -23,7 +23,7 @@ const Tools = () => {
           I&apos;m proficient with the following tools.
         </p>
         <div className="flex flex-col md:flex-row ">
-          <div className="right relative flex-1 flex flex-wrap p-3 md:p-5 gap-10 items-center justify-center sm:w-full">
+          <div className="right relative flex-1 flex flex-wrap p-3 md:p-3 lg:p-5 gap-10 md:gap-3 lg:gap-10 items-center justify-center sm:w-full">
             <div className="tools1 flex flex-col gap-10 ">
               <SkillBox logo={<SiGit />} black={"white"} white={"black"} skill={"Git"} />
               <SkillBox logo={<SiGithub />} black={"white"} white={"black"} skill={"Github"} />

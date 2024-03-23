@@ -13,7 +13,7 @@ const WorkCard = () => {
           key={data.id}
           className="flex flex-col justify-center items-center gap-4 relative group"
         >
-          <div className="relative h-[260px] w-[92%] md:h-[280px] md:w-[380px] hover:scale-[.87] transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden bg-cover mx-auto ">
+          <div className="relative h-[260px] w-[92%] md:h-[240px] lg:h-[280px] md:w-[340px] lg:w-[380px] hover:scale-[.87] transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden bg-cover mx-auto ">
             <img
               src={`/images/${data.img}.png`}
               alt={data.title}

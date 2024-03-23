@@ -42,7 +42,7 @@ const NavBar = () => {
     >
       <nav className="container m-auto flex items-center justify-between">
         <div data-aos="fade-down" className="logo">
-          <button onClick={navigateToLandingPage} className="text-3xl font-bold sm:text-3xl">
+          <button onClick={navigateToLandingPage} className="text-xl font-bold md:text-3xl">
             Portfolio.
           </button>
         </div>

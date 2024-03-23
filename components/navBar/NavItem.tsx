@@ -13,9 +13,9 @@ interface props {
 const NavItem: React.FC<props> = ({ isOpen, toggleNav, activeItem, closeMenu }) => {
   return (
     <ul
-      className={`flex items-center text-black md:space-x-11 md:flex-row
+      className={`flex items-center text-black md:space-x-6 md:flex-row
             ${
-              isOpen ? "bg-white right-[0%] space-y-6" : "md:md:flex"
+              isOpen ? "bg-white right-[0%] space-y-6" : "md:flex"
             } flex-col absolute m-auto top-0 w-[58%] md:w-full md:static h-screen md:h-fit
           
           `}
@@ -31,7 +31,7 @@ const NavItem: React.FC<props> = ({ isOpen, toggleNav, activeItem, closeMenu }) 
       )}
 
       {navItems.map((item) => (
-        <li key={item.id} className="m-6 flex gap-6 items-center justify-center">
+        <li key={item.id} className="m-0 lg:m-6 flex gap-0 lg:gap-6 items-center justify-center">
           <Link
             onClick={() => toggleNav(item.name)}
             href={`#${item.name}`}

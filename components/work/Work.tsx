@@ -12,7 +12,7 @@ const Work = () => {
         <p className="text-gray-700 font-medium w-[100%]">Here are some of my works.</p>
       </div>
       <div className="card-wrapper mx-auto md:w-[90%] w-fit mt-5">
-        <div className="card-box grid grid-cols-1 md:grid-cols-3 w-full gap-8 md:gap-12 space-y-5 md:space-y-0 ">
+        <div className="card-box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8 md:gap-12 space-y-5 md:space-y-0 ">
           <WorkCard />
         </div>
       </div>

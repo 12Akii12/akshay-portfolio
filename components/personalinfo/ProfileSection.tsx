@@ -3,11 +3,11 @@ import { FaPlay } from "react-icons/fa";
 
 const ProfileSection = () => {
   return (
-    <div className="right order-1 md:order-2 top-5 pt-5 md:pt-0 flex-1 flex items-center justify-center md:items-end sm:items-end">
-      <div className="relative h-[88%] w-fit mt-5 md:mt-0 flex items-center sm:items-end">
+    <div className="right order-1 md:order-2 top-5 pt-5 md:pt-0 flex-1 flex items-center justify-center lg:items-end ">
+      <div className="relative h-[88%] md:h-fit lg:h-[88%] w-fit mt-5 md:mt-0 flex items-center md:items-end">
         <img
           data-aos="fade-up"
-          className=" h-[90%] rounded-full w-full object-cover md:h-[85%] md:m-auto sm:m-0"
+          className=" h-[90%] rounded-full w-full object-cover md:h-fit lg:h-[85%] md:m-auto sm:m-0"
           src="/images/AkshayProfile.jpeg"
           alt="mine"
         />

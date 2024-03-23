@@ -42,7 +42,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="right relative flex-1 flex flex-wrap p-3 md:p-5 gap-10 items-center justify-center sm:w-full">
+          <div className="right relative flex-1 flex flex-wrap p-3 md:p-5 gap-10 md:gap-3 lg:gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10 ">
               <SkillBox logo={<IoLogoNodejs />} black={"white"} white={"black"} skill={"Node Js"} />
               <SkillBox logo={<SiNestjs />} black={"white"} white={"black"} skill={"Nest Js"} />

@@ -27,8 +27,8 @@ export const data = [
     img: "personal",
     title: "Portfolio",
     desc: "",
-    link: "https://www.linkedin.com/posts/akshay-jadhav-a22319161_javascript-react-netflix-activity-6762606789826494464-Bq91?utm_source=share&utm_medium=member_desktop",
-    git: "https://github.com/12Akii12",
+    link: "https://akshay-portfolio-eta.vercel.app/",
+    git: "https://github.com/12Akii12/akshay-portfolio",
   },
   {
     id: 2,
@@ -190,4 +190,4 @@ export const footerSocialMediaLinks = [
 ];
 
 export const SkillSeats =
-  "Around 3 Exp. | SDE @Fitpage | React.js | Next.js | Javascript | Typescript | React Redux | React Hooks | TailwindCSS | Node.js | Nest.js | TypeORM | PostgresSql";
+  "3+ Yrs Exp. | SDE @Fitpage | React.js | Next.js | Javascript | Typescript | React Redux | React Hooks | TailwindCSS | Node.js | Nest.js | TypeORM | PostgresSql";
